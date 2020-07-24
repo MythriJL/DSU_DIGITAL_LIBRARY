@@ -1,0 +1,25 @@
+
+.welcoMessageCss{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 5vw;
+    top: 50%;
+    left: 25%;
+    color: white;
+    width: 50%;
+    text-align: center;
+
+}
+.container-fluid{
+    padding: 0px;
+    height: 88vh;
+}
+
+.home-first-section {
+    margin-top: 12vh;
+}
+
+.container-fluid .home-bg-img {
+    width: 100%;
+    height: 100%;
+}
