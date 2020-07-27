@@ -5,7 +5,7 @@ export class AboutUS extends React.Component {
     render() {
         return (
             <div>
-                About PAGE
+                <h1>hiiiiiiiiii</h1>
             </div>
         )
     }

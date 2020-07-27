@@ -23,3 +23,20 @@
     width: 100%;
     height: 100%;
 }
+
+
+.home-about{
+   
+    text-align: justify;
+}
+@media (min-width: 768px) {
+    .home-about{
+        margin: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-about{
+        margin: 2rem;
+    }
+}
