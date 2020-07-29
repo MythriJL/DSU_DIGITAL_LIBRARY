@@ -17,14 +17,14 @@ import { AboutUS } from './routes/aboutus';
 function App() {
   return (
     <Router>
-          <div>
+          <>
 
             <Navbar  className = "navbarcss"  fixed="top"  expand="lg" variant="dark">
 
               <Navbar.Brand href="/"><Image src={nav_logo} height = "50px" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="ml-auto">
                   <Nav.Link href="/">Home</Nav.Link>
                   <Nav.Link href="/about">About</Nav.Link>
                   <Nav.Link href="/schools">Schools</Nav.Link>
@@ -34,7 +34,7 @@ function App() {
                 <Form inline>
 
                       <Button variant="outline-warning">Login</Button>
-                    </Form>
+                 </Form>
               </Navbar.Collapse>
             </Navbar>
 
@@ -63,7 +63,7 @@ function App() {
 
 
             </Switch>
-          </div>
+          </>
         </Router>
   );
 }
