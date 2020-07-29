@@ -65,7 +65,7 @@ export class Home extends React.Component {
                         <Button  href="/schools" >Learn More</Button>
                     </Col>
                     <Col lg={2} md={12} xs={12}>
-                        <Image src={commerce} alt = "Commerce" className ="home-school-image"fluid />
+                        <Image src={commerce} alt = "Comerce" className ="home-school-image"fluid />
                         <h5 >Commerce</h5>
                         <Button  href="/schools" >Learn More</Button>
                     </Col>
