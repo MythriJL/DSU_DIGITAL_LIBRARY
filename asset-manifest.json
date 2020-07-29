@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/Library_template/static/css/main.7461af0d.chunk.css",
-    "main.js": "/Library_template/static/js/main.d366e2ad.chunk.js",
-    "main.js.map": "/Library_template/static/js/main.d366e2ad.chunk.js.map",
+    "main.css": "/Library_template/static/css/main.1ae3a742.chunk.css",
+    "main.js": "/Library_template/static/js/main.ee52e274.chunk.js",
+    "main.js.map": "/Library_template/static/js/main.ee52e274.chunk.js.map",
     "runtime-main.js": "/Library_template/static/js/runtime-main.4ca8f9e9.js",
     "runtime-main.js.map": "/Library_template/static/js/runtime-main.4ca8f9e9.js.map",
     "static/css/2.829c9cb5.chunk.css": "/Library_template/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.7ae57040.chunk.js": "/Library_template/static/js/2.7ae57040.chunk.js",
-    "static/js/2.7ae57040.chunk.js.map": "/Library_template/static/js/2.7ae57040.chunk.js.map",
+    "static/js/2.5304d4d0.chunk.js": "/Library_template/static/js/2.5304d4d0.chunk.js",
+    "static/js/2.5304d4d0.chunk.js.map": "/Library_template/static/js/2.5304d4d0.chunk.js.map",
     "index.html": "/Library_template/index.html",
-    "precache-manifest.ed29d5bc1c3630926df6b9eee3f36588.js": "/Library_template/precache-manifest.ed29d5bc1c3630926df6b9eee3f36588.js",
+    "precache-manifest.3a18cc15b902a0eaf47fef53284dda55.js": "/Library_template/precache-manifest.3a18cc15b902a0eaf47fef53284dda55.js",
     "service-worker.js": "/Library_template/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/Library_template/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.7461af0d.chunk.css.map": "/Library_template/static/css/main.7461af0d.chunk.css.map",
-    "static/js/2.7ae57040.chunk.js.LICENSE.txt": "/Library_template/static/js/2.7ae57040.chunk.js.LICENSE.txt",
+    "static/css/main.1ae3a742.chunk.css.map": "/Library_template/static/css/main.1ae3a742.chunk.css.map",
+    "static/js/2.5304d4d0.chunk.js.LICENSE.txt": "/Library_template/static/js/2.5304d4d0.chunk.js.LICENSE.txt",
+    "static/media/Engineering.png": "/Library_template/static/media/Engineering.9ac9c9bf.png",
+    "static/media/applied science.jpg": "/Library_template/static/media/applied science.e53b7c44.jpg",
+    "static/media/arts.jpg": "/Library_template/static/media/arts.2f350cdd.jpg",
+    "static/media/commerce and managment.jpeg": "/Library_template/static/media/commerce and managment.10006e88.jpeg",
+    "static/media/health science.jpg": "/Library_template/static/media/health science.01898f44.jpg",
     "static/media/home-about.png": "/Library_template/static/media/home-about.362e3efe.png",
     "static/media/home.jpeg": "/Library_template/static/media/home.541d13ca.jpeg",
     "static/media/nav-logo.jpg": "/Library_template/static/media/nav-logo.d570712b.jpg"
@@ -21,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.4ca8f9e9.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.7ae57040.chunk.js",
-    "static/css/main.7461af0d.chunk.css",
-    "static/js/main.d366e2ad.chunk.js"
+    "static/js/2.5304d4d0.chunk.js",
+    "static/css/main.1ae3a742.chunk.css",
+    "static/js/main.ee52e274.chunk.js"
   ]
 }
