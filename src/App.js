@@ -41,28 +41,31 @@ function App() {
 
             {/* A <Switch> looks through its children <Route>s and
                 renders the first one that matches the current URL. */}
-            <Switch>
-              <Route path="/about">
-                <AboutUS />
-              </Route>
-              <Route path="/schools">
-                <Schools />
-              </Route>
-              <Route path = "/downloads">
-                  <Downloads />
-               </Route>
-              <Route path = "/learning">
-                 <Learning />
-              </Route>
-              <Route path = "/login">
-                   <login />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
+
+            <div className='body-section'>
+              <Switch>
+                <Route path="/about">
+                  <AboutUS />
+                </Route>
+                <Route path="/schools">
+                  <Schools />
+                </Route>
+                <Route path = "/downloads">
+                    <Downloads />
+                </Route>
+                <Route path = "/learning">
+                  <Learning />
+                </Route>
+                <Route path = "/login">
+                    <login />
+                </Route>
+                <Route path="/">
+                  <Home />
+                </Route>
 
 
-            </Switch>
+              </Switch>
+            </div>                    
           </>
         </Router>
   );

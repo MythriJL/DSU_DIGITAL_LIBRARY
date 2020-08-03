@@ -15,9 +15,8 @@
     height: 88vh;
 }
 
-.home-first-section {
-    margin-top: 12vh;
-}
+
+  
 
 .container-fluid .home-bg-img {
     width: 100%;
@@ -40,20 +39,15 @@
         margin: 2rem;
     }
 }
-.home-school{
-    background:#6A172F;
-    width:100%;
-    height :100%
-}
 .home-school-image{
-    height:10rem;
+    height:15rem;
     width:auto;
-    position: relative;
+    
 }
  .home-school-Recatngle{
-     position: relative;
+    
     background-color:black ;
-    height:18rem;
+    height:20rem;
  }
 
 .school_text{
@@ -61,8 +55,35 @@
     text-align: center;
     padding: 1rem;
     font-size: 2vw;
+}1
+.school-text{
+    font-size: 2vw;
+    text-align: center;
 }
-.buttoncss{
-    background-color: #6A172F;
+.school-button{
+    font-size:1vw;
+    
     
 }
+.school-discription{
+    margin-top: -25vh;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    
+    
+}
+.schools{
+    text-align: center;
+    left: 100%;
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+
+}
+.schools :hover {
+    animation-play-state: paused;
+}
+@keyframes marquee {
+    0%   { left: 100%; }
+    100% { left: -100%; }
+  }

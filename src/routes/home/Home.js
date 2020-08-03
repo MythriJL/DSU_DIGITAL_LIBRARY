@@ -20,6 +20,29 @@ import { AboutUS } from '../aboutus/index';
 
 export class Home extends React.Component {
     render() {
+        const courses = [
+            {
+                title: "Applied Science",
+                img: apsci
+            },
+            {
+                title: "Arts",
+                img: arts
+            },
+            {
+                title: "Commerce",
+                img: commerce
+            },
+            {
+                title: "Health",
+                img: health
+            },
+            {
+                title: "Engineering",
+                img: eng
+            },
+
+        ]
         return (
             <>
             <div className="container-fluid home-first-section">
@@ -53,34 +76,19 @@ export class Home extends React.Component {
                     <h1 className ="school_text">OUR SCHOOLS</h1>
                     <h3 className ="school_text">CHECK OUT ALL OUR PROFESSIONAL COURSES HERE</h3>
                 </div>
-                <Row>
-                    <Col lg={2} md={12} xs={12}>
-                        <Image src={apsci} alt = "Applied Science" className ="home-school-image" fluid />
-                        <h5 >Applied Science</h5>
-                        <Button  href="/schools" >Learn More</Button>
-                    </Col>
-                    <Col lg={2} md={12} xs={12}>
-                        <Image src={arts} alt = "Arts and humanities" className ="home-school-image"fluid />
-                        <h5 >Arts and Humanities</h5>
-                        <Button  href="/schools" >Learn More</Button>
-                    </Col>
-                    <Col lg={2} md={12} xs={12}>
-                        <Image src={commerce} alt = "Comerce" className ="home-school-image"fluid />
-                        <h5 >Commerce</h5>
-                        <Button  href="/schools" >Learn More</Button>
-                    </Col>
-                    <Col lg={2} md={12} xs={12}>
-                        <Image src={health} alt = "Health Science" className ="home-school-image"fluid />
-                        <h5 >Health Science</h5>
-                        <Button  href="/schools" >Learn More</Button>
-                    </Col>
-                    <Col lg={2} md={12} xs={12}>
-                        <Image src={eng} alt = "Engineering" className ="home-school-image" fluid />
-                        <h5 >Enginerring</h5>
-                        <Button  href="/schools" >Learn More</Button>
-                    </Col>
-
-                </Row>
+                    <div className="school-discription">
+                    <Row >
+                        {
+                            courses.map(({title, img}, index) => (
+                                <Col lg={2} md={2} xs={2} key={index} className = "schools">
+                                    <Image src={img} alt = {title} className ="home-school-image" fluid />
+                                    <h5 className ="school-text">{title}</h5>
+                                    <Button className = "school-button"href="/schools" >Learn More</Button>
+                                </Col>
+                            ))
+                        }
+                    </Row>
+                </div>
                 <Switch>
               <Route path="/schools">
                 <Schools />
