@@ -1,11 +1,12 @@
 import React from 'react';
 import './index.css'
 
-export class AboutUS extends React.Component {
+
+export class School extends React.Component {
     render() {
         return (
             <div>
-                <h1>About Page</h1>
+                <h1>School Page</h1>
             </div>
         )
     }

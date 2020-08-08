@@ -13,6 +13,8 @@ import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstr
 import { Home } from './routes/home/Home';
 import { AboutUS } from './routes/aboutus';
 
+import { School } from './routes/school';
+
 
 function App() {
   return (
@@ -48,7 +50,7 @@ function App() {
                   <AboutUS />
                 </Route>
                 <Route path="/schools">
-                  <Schools />
+                  <School />
                 </Route>
                 <Route path = "/downloads">
                     <Downloads />

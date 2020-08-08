@@ -30,7 +30,7 @@
 }
 @media (min-width: 768px) {
     .home-about{
-        margin: 5rem;
+        margin: 6rem;
     }
 }
 
@@ -39,11 +39,7 @@
         margin: 2rem;
     }
 }
-.home-school-image{
-    height:15rem;
-    width:auto;
-    
-}
+
  .home-school-Recatngle{
     
     background-color:black ;
@@ -54,36 +50,22 @@
     color:white;
     text-align: center;
     padding: 1rem;
-    font-size: 2vw;
+    
 }1
 .school-text{
     font-size: 2vw;
     text-align: center;
-}
-.school-button{
-    font-size:1vw;
-    
     
 }
-.school-discription{
-    margin-top: -25vh;
-    
-    overflow: hidden;
-    white-space: nowrap;
-    
-    
-}
-.schools{
-    text-align: center;
-    left: 100%;
-    display: inline-block;
-    animation: marquee 10s linear infinite;
 
+.school-discription{
+    
+    margin-top: -15vh;
+    text-align: center;
+    
 }
-.schools :hover {
-    animation-play-state: paused;
+@media (max-width:320px){
+    .school-discription{
+        margin-top: -10vh;
+    }
 }
-@keyframes marquee {
-    0%   { left: 100%; }
-    100% { left: -100%; }
-  }

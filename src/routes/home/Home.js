@@ -1,14 +1,14 @@
 import React from 'react';
 import home from './home.jpeg';
 import about from './home-about.png';
-import apsci from './applied science.jpg';
-import arts from './arts.jpg';
-import commerce from './commerce and managment.jpeg';
-import health from './health science.jpg';
-import eng from './Engineering.png'
+import apsci from './Applied Science.png';
+import arts from './Arts and Humanities.png';
+import commerce from './Commerce.png';
+import health from './Health Science.png';
+import eng from './Enginnering.png'
 
 
-import {Image,Button,Row,Col,Container,Media} from 'react-bootstrap';
+import {Image,Button,Row,Col,Container,Media,Carousel} from 'react-bootstrap';
 import {
     BrowserRouter as Router,
     Switch,
@@ -17,6 +17,7 @@ import {
   } from "react-router-dom";
 import './Home.css';
 import { AboutUS } from '../aboutus/index';
+import { School } from '../school/index';
 
 export class Home extends React.Component {
     render() {
@@ -26,7 +27,7 @@ export class Home extends React.Component {
                 img: apsci
             },
             {
-                title: "Arts",
+                title: "Arts And Humanities",
                 img: arts
             },
             {
@@ -34,7 +35,7 @@ export class Home extends React.Component {
                 img: commerce
             },
             {
-                title: "Health",
+                title: "Health Science",
                 img: health
             },
             {
@@ -71,19 +72,22 @@ export class Home extends React.Component {
                 <AboutUS />
               </Route>
             </Switch>
+            
+          
             <Container fixed="true" >
                 <div className="home-school-Recatngle">
                     <h1 className ="school_text">OUR SCHOOLS</h1>
-                    <h3 className ="school_text">CHECK OUT ALL OUR PROFESSIONAL COURSES HERE</h3>
+                    <h4 className ="school_text">CHECK OUT ALL OUR PROFESSIONAL COURSES HERE</h4>
                 </div>
                     <div className="school-discription">
-                    <Row >
+                    <Row className="justify-content-md-center" >
                         {
                             courses.map(({title, img}, index) => (
-                                <Col lg={2} md={2} xs={2} key={index} className = "schools">
+                                <Col lg="2" md="auto" key={index} className = "schools">
                                     <Image src={img} alt = {title} className ="home-school-image" fluid />
-                                    <h5 className ="school-text">{title}</h5>
-                                    <Button className = "school-button"href="/schools" >Learn More</Button>
+                                     <p><br/></p>
+                                    <Button  href="/schools" >Learn More</Button>
+                                    <p><br/></p>
                                 </Col>
                             ))
                         }
@@ -91,17 +95,19 @@ export class Home extends React.Component {
                 </div>
                 <Switch>
               <Route path="/schools">
-                <Schools />
+                <School />
               </Route>
             </Switch>
             </Container>
-          
+           
             </> 
         )
     }
 }
 
-function Schools(){
-    return(
-    <div>School Page</div>
-    )}
+
+
+          
+        
+      
+      
