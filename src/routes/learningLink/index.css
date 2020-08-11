@@ -5,3 +5,12 @@
     color:white;
     padding:  5rem;
 }
+
+.collaps{
+    background-color: gray;
+    height: 3rem;
+    color:white;
+   padding :1rem;
+    text-align: center;
+    margin: 1rem;
+}

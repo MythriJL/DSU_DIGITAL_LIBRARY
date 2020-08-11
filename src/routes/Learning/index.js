@@ -1,9 +1,6 @@
 import React from 'react';
 import './index.css'
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link,
     
   } from "react-router-dom";
@@ -25,7 +22,7 @@ export class Learning extends React.Component {
                     </Link>
                 </Col>
                 <Col lg = "6" md ="12" xs = "12">
-                    <Button  href="/about" >CD</Button>
+                    <Button  href="/learning/cd" >CD</Button>
                 </Col>
                 </Row>
             </div>

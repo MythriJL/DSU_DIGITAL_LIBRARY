@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css'
 import Collapsible from 'react-collapsible';
-import { Table}  from 'react-bootstrap';
+import { Table,Row,Col}  from 'react-bootstrap';
 
 export class LinkLearning extends React.Component {
     render() {
@@ -15,10 +15,10 @@ export class LinkLearning extends React.Component {
 
                 <p><br/><br/></p>
 
-                <Table striped bordered hover variant="dark"  >
-                    <tr>
+                <Row className="collaps">
+                   
                         
-                        <td>
+                        <Col>
                             <Collapsible trigger="Learning / Course Material ">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -76,11 +76,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                        </Col>
+                    </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                        <Col>
                             <Collapsible trigger="Higher Studies">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -138,11 +139,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                        </Col>
+                    </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                        <Col>
                             <Collapsible trigger="Educational Websites">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -200,11 +202,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                        </Col>
+                        </Row>
+                        <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Learning / Course Material">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -262,11 +265,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                       </Col>
+                       </Row>
+                       <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Career Resource Information">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -324,11 +328,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                        </Col>
+                        </Row>
+                        <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Government Websites">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -386,11 +391,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                        <Col>
                             <Collapsible trigger="U.P.S.C. Exams">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -448,11 +454,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                      <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Bank Exams">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -510,11 +517,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                       </Col>
+                       </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Defense Competitive Exams">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -572,11 +580,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                      <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Life Insurance Exams">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -634,11 +643,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                        </Col>
+                        </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Research Projects">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -696,11 +706,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                        <Col>
                             <Collapsible trigger="Job Vacancies">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -758,11 +769,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                        <Col>
                             <Collapsible trigger="Staff Selection Commission">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -820,11 +832,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Fellowships">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -882,11 +895,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                        <Col>
                             <Collapsible trigger="International Conference Participation - Funding">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -944,11 +958,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                   <Col>
                             <Collapsible trigger="Reference Sources">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -1006,11 +1021,12 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-                    <tr>
+                            </Col>
+                      </Row>
+                    <Row className="collaps">
+                   
                         
-                        <td>
+                        <Col>
                             <Collapsible trigger="Search Engines">
                                 <Table striped bordered hover variant="light">
                                 <thead>
@@ -1068,10 +1084,9 @@ export class LinkLearning extends React.Component {
                                 </tbody>
                                 </Table>
                             </Collapsible>
-                        </td>
-                    </tr>
-
-            </Table>
+                      </Col>
+                      </Row>
+           
             </>
         )
     }
