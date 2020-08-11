@@ -7,13 +7,16 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstrap"
+import {Navbar, Nav, Form, Button} from "react-bootstrap"
 import { Home } from './routes/home/Home';
 import { AboutUS } from './routes/aboutus';
-
+import { Learning } from './routes/Learning';
 import { School } from './routes/school';
+import {CD} from './routes/learningCD';
+import { LinkLearning } from './routes/learningLink';
+
 
 
 function App() {
@@ -39,35 +42,46 @@ function App() {
                  </Form>
               </Navbar.Collapse>
             </Navbar>
-
-
+            
             {/* A <Switch> looks through its children <Route>s and
                 renders the first one that matches the current URL. */}
 
             <div className='body-section'>
               <Switch>
-                <Route path="/about">
+                <Route path="/about" exact>
                   <AboutUS />
                 </Route>
-                <Route path="/schools">
+                <Route path="/schools" exact>
                   <School />
                 </Route>
-                <Route path = "/downloads">
-                    <Downloads />
-                </Route>
-                <Route path = "/learning">
+              
+                <Route path = "/learning" exact>
                   <Learning />
                 </Route>
-                <Route path = "/login">
+                <Route path="/learning/link" exact >
+                  <LinkLearning />
+                </Route>
+                <Route path = "/downloads" exact>
+                    <Downloads />
+                </Route>
+                
+                <Route path = "/login" exact>
                     <login />
                 </Route>
-                <Route path="/">
-                  <Home />
+                
+                <Route path="/learning/cd" excat>
+                    <CD />
                 </Route>
-
-
+                <Route path="/">
+                  <Home /> 
+                </Route>
+                
               </Switch>
             </div>                    
+            <div className = "foot">
+              <h5>Copyright © 2020 DSU. All Rights Reserved</h5>
+            </div>
+
           </>
         </Router>
   );
@@ -78,19 +92,12 @@ function App() {
 export default App;
 
 
-function Learning(){
-return(
-<div>Learning Resource page</div>
-)}
+
 function login(){
 return(
 <div>login page</div>
 )}
 
-function Schools(){
-return(
-<div>School Page</div>
-)}
 
 function Downloads(){
 return(

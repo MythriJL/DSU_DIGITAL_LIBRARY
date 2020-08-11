@@ -44,4 +44,11 @@ height:1000x;
 .body-section {
   margin-top: 12vh;
 }
+.foot{
+  background-color: #6A172F;
+  text-align: center;
+  color: white;
+  height: 10vh;
+  padding: 1rem;
+}
 

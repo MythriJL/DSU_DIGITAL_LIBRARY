@@ -8,16 +8,10 @@ import health from './Health Science.png';
 import eng from './Enginnering.png'
 
 
-import {Image,Button,Row,Col,Container,Media,Carousel} from 'react-bootstrap';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Image,Button,Row,Col,Container} from 'react-bootstrap';
+
 import './Home.css';
-import { AboutUS } from '../aboutus/index';
-import { School } from '../school/index';
+
 
 export class Home extends React.Component {
     render() {
@@ -67,11 +61,7 @@ export class Home extends React.Component {
                 
                 </Row>
             </Container>
-            <Switch>
-              <Route path="/about">
-                <AboutUS />
-              </Route>
-            </Switch>
+            
             
           
             <Container fixed="true" >
@@ -93,11 +83,7 @@ export class Home extends React.Component {
                         }
                     </Row>
                 </div>
-                <Switch>
-              <Route path="/schools">
-                <School />
-              </Route>
-            </Switch>
+                
             </Container>
            
             </> 
