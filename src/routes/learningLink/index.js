@@ -20,7 +20,7 @@ export class LinkLearning extends React.Component {
                         
                         <Col>
                             <Collapsible trigger="Learning / Course Material ">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -83,7 +83,7 @@ export class LinkLearning extends React.Component {
                         
                         <Col>
                             <Collapsible trigger="Higher Studies">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -146,7 +146,7 @@ export class LinkLearning extends React.Component {
                         
                         <Col>
                             <Collapsible trigger="Educational Websites">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -209,7 +209,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Learning / Course Material">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -272,7 +272,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Career Resource Information">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -335,7 +335,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Government Websites">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -398,7 +398,7 @@ export class LinkLearning extends React.Component {
                         
                         <Col>
                             <Collapsible trigger="U.P.S.C. Exams">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -461,7 +461,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Bank Exams">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -524,7 +524,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Defense Competitive Exams">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -587,7 +587,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Life Insurance Exams">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light responsive">
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -650,7 +650,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Research Projects">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -713,7 +713,7 @@ export class LinkLearning extends React.Component {
                         
                         <Col>
                             <Collapsible trigger="Job Vacancies">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -776,7 +776,7 @@ export class LinkLearning extends React.Component {
                         
                         <Col>
                             <Collapsible trigger="Staff Selection Commission">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -839,7 +839,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Fellowships">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -902,7 +902,7 @@ export class LinkLearning extends React.Component {
                         
                         <Col>
                             <Collapsible trigger="International Conference Participation - Funding">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -965,7 +965,7 @@ export class LinkLearning extends React.Component {
                         
                    <Col>
                             <Collapsible trigger="Reference Sources">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>
@@ -1028,7 +1028,7 @@ export class LinkLearning extends React.Component {
                         
                         <Col>
                             <Collapsible trigger="Search Engines">
-                                <Table striped bordered hover variant="light">
+                                <Table striped bordered hover variant="light" responsive>
                                 <thead>
                                     <tr>
                                         <th>Description</th>

@@ -19,8 +19,9 @@ export class Learning extends React.Component {
                         </Link>
                     </Col>
                     <Col lg = "6" md ="12" xs = "12">
-                        <Link to ="/learning/cd"></Link>
-                        <Button >CD</Button>
+                        <Link to="/learning/cd">
+                            <Button >CD</Button>
+                        </Link>
                     </Col>
                     </Row>
                 </div>
