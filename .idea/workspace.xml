@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7905181-967f-489c-99f0-286c244e6505" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/home/applied science.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/applied science.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,25 +56,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="141" y="39" key="SettingsEditor" timestamp="1595583304269">
+    <state x="141" y="39" key="SettingsEditor" timestamp="1597316774877">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1595583304269" />
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1597316774877" />
     <state x="100" y="85" width="1080" height="661" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595583434851">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="100" y="85" width="1080" height="661" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.727@0.23.1280.727" timestamp="1595583434851" />
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1596351415188">
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1597316102888">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1596351415188" />
+    <state x="317" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1597316102888" />
     <state x="266" y="0" width="748" height="800" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596351991105">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

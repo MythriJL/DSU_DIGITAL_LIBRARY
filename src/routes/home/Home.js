@@ -42,11 +42,11 @@ export class Home extends React.Component {
         ]
         return (
             <>
-                <div className="container-fluid home-first-section">
+                <div className="container-fluid ">
                     <Image src={home} className="home-bg-img" />
                     <h1 className ="welcoMessageCss">WELCOME TO DSU DIGITAL LIBRARY</h1>
                 </div>
-                <Container>
+                <Container fixed>
                     <Row className = "home-about">
                         
                         <Col lg={6} md={12} xs={12}>

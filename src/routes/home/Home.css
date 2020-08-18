@@ -27,6 +27,7 @@
 .home-about{
    
     text-align: justify;
+    padding:1rem;
 }
 @media (min-width: 768px) {
     .home-about{
@@ -51,7 +52,7 @@
     text-align: center;
     padding: 1rem;
     
-}1
+}
 .school-text{
     font-size: 2vw;
     text-align: center;
