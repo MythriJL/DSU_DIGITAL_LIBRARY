@@ -1,12 +1,42 @@
-.foot{
-    background-color: #6A172F;
-    text-align: center;
-    color: white;
-    height: 5vh;
+
+
+.App {
+  text-align: center;
+  background-color: white;
+  height: 2.5rem;
+}
+.head{
+  background-color: #6A172F;
+  height:30vh;
+  text-align: center;
+  color:white;
+  padding:  5rem;
+}
+.App-header {
+  background-color: #6A172F;
+  min-height:25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5px;
+  color: white;
+}
+
+.home-learning-image{
+    height:18rem;
+    width:auto;
+    position: relative;
     padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  
+    margin-left: 5%;
+   
+}
+
+.home-learning{
+    height:15rem;
+    width:25rem;
+    position: relative;
+    padding: 1rem;
+    margin-left: 5%;
+    
+}

@@ -1,0 +1,31 @@
+  .App {
+    text-align: center;
+    background-color: white;
+    height:2.5rem;
+  }
+  .App-header {
+    background-color: #6A172F;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(40px + 7vmin);
+    color: white;
+  }
+  @media screen and (min-width:601px) {
+  .cd-table {
+      font-size:15px;
+    }
+  } 
+  @media screen and (max-width:600px) {
+  .cd-table {
+    font-size:6px;
+   }
+  }.head{
+    background-color: #6A172F;
+    height:30vh;
+    text-align: center;
+    color:white;
+    padding:  5rem;
+  }

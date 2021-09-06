@@ -23,7 +23,9 @@
 	import { School } from './routes/school';
 	import {CD} from './routes/learningCD';
 	import LinkLearning  from './routes/learningLink';
-	
+	import Ebook from './routes/ebook';
+	import Ejournal from './routes/ejournal';
+	import Classroom from './routes/classroom';
 	
 	
 	function App() {
@@ -79,7 +81,15 @@
 					<Route path="/learning/cd" excat>
 						<CD />
 					</Route>
-					
+					<Route path="/learning/ebook" exact>
+						<Ebook />
+					</Route>
+					<Route path="/learning/ejournal" exact>
+							<Ejournal/>
+					</Route>
+					<Route path="/learning/classroom" exact>
+							<Classroom/>
+					</Route>
 					<Route path="/">
 						<Home /> 
 					</Route>
