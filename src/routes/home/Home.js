@@ -88,9 +88,8 @@ export class Home extends React.Component {
                             }
                         </Row>
                     </div>
-                
+                 
                 </Container>
-           
             </> 
         )
     }

@@ -25,8 +25,6 @@ export class Learning extends React.Component {
                     </Col>
                     </Row>
                 </div>
-            
-            
             </>
         )
     }

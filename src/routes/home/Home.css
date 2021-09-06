@@ -70,3 +70,10 @@
         margin-top: -10vh;
     }
 }
+.foot{
+    background-color: #6A172F;
+    text-align: center;
+    color: white;
+    height: 5vh;
+    padding: 1rem;
+  }

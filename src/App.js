@@ -22,7 +22,7 @@
 	import { Learning } from './routes/Learning';
 	import { School } from './routes/school';
 	import {CD} from './routes/learningCD';
-	import { LinkLearning } from './routes/learningLink';
+	import LinkLearning  from './routes/learningLink';
 	
 	
 	
@@ -39,7 +39,6 @@
 
 						<Nav.Link href="/">Home</Nav.Link>
 						<Nav.Link href="/about">About</Nav.Link>
-						<Nav.Link href="/schools">Schools</Nav.Link>
 						<Nav.Link href="/learning">Learning Resource</Nav.Link>
 						<Nav.Link href="/downloads">Downloads</Nav.Link>
 					</Nav>
@@ -60,9 +59,6 @@
 						<AboutUS />
 					</Route>
 
-					<Route path="/schools" exact>
-						<School />
-					</Route>
 
 					<Route path = "/learning" exact>
 						<Learning />
@@ -92,11 +88,7 @@
 
 			</div> 
 
-			<div className = "foot">
 
-						<h5>Copyright © 2020 DSU. All Rights Reserved</h5>
-
-			</div>
 			
 			
 		</Router>

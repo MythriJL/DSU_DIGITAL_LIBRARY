@@ -30,7 +30,7 @@
 }
 .about-para{
     color: white;
-    font-size: 3vh;
+    font-size: 2rem;
     text-align: justify;
 }
 .student-image{
@@ -58,7 +58,7 @@
 
 .team-details{
     
-    margin-top: -10%;
+    margin-top: -5%;
     text-align: center;
     
 }
