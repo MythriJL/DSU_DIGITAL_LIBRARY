@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/DSU_DIGITAL_LIBRARY/static/css/main.0e6facac.chunk.css",
-    "main.js": "/DSU_DIGITAL_LIBRARY/static/js/main.c18b1f91.chunk.js",
-    "main.js.map": "/DSU_DIGITAL_LIBRARY/static/js/main.c18b1f91.chunk.js.map",
+    "main.js": "/DSU_DIGITAL_LIBRARY/static/js/main.c5b7dac3.chunk.js",
+    "main.js.map": "/DSU_DIGITAL_LIBRARY/static/js/main.c5b7dac3.chunk.js.map",
     "runtime-main.js": "/DSU_DIGITAL_LIBRARY/static/js/runtime-main.7737f602.js",
     "runtime-main.js.map": "/DSU_DIGITAL_LIBRARY/static/js/runtime-main.7737f602.js.map",
     "static/css/2.829c9cb5.chunk.css": "/DSU_DIGITAL_LIBRARY/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.0ae2bb72.chunk.js": "/DSU_DIGITAL_LIBRARY/static/js/2.0ae2bb72.chunk.js",
-    "static/js/2.0ae2bb72.chunk.js.map": "/DSU_DIGITAL_LIBRARY/static/js/2.0ae2bb72.chunk.js.map",
+    "static/js/2.905f8b71.chunk.js": "/DSU_DIGITAL_LIBRARY/static/js/2.905f8b71.chunk.js",
+    "static/js/2.905f8b71.chunk.js.map": "/DSU_DIGITAL_LIBRARY/static/js/2.905f8b71.chunk.js.map",
     "index.html": "/DSU_DIGITAL_LIBRARY/index.html",
-    "precache-manifest.c9191cca013bc5963ba0ed7f03e4a886.js": "/DSU_DIGITAL_LIBRARY/precache-manifest.c9191cca013bc5963ba0ed7f03e4a886.js",
+    "precache-manifest.38394f81795663b578f89da85ef98939.js": "/DSU_DIGITAL_LIBRARY/precache-manifest.38394f81795663b578f89da85ef98939.js",
     "service-worker.js": "/DSU_DIGITAL_LIBRARY/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/DSU_DIGITAL_LIBRARY/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.0e6facac.chunk.css.map": "/DSU_DIGITAL_LIBRARY/static/css/main.0e6facac.chunk.css.map",
-    "static/js/2.0ae2bb72.chunk.js.LICENSE.txt": "/DSU_DIGITAL_LIBRARY/static/js/2.0ae2bb72.chunk.js.LICENSE.txt",
+    "static/js/2.905f8b71.chunk.js.LICENSE.txt": "/DSU_DIGITAL_LIBRARY/static/js/2.905f8b71.chunk.js.LICENSE.txt",
     "static/media/Applied Science.png": "/DSU_DIGITAL_LIBRARY/static/media/Applied Science.06d10eda.png",
     "static/media/Arts and Humanities.png": "/DSU_DIGITAL_LIBRARY/static/media/Arts and Humanities.3637f2c3.png",
     "static/media/Cds.png": "/DSU_DIGITAL_LIBRARY/static/media/Cds.6b4b3bd5.png",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.7737f602.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.0ae2bb72.chunk.js",
+    "static/js/2.905f8b71.chunk.js",
     "static/css/main.0e6facac.chunk.css",
-    "static/js/main.c18b1f91.chunk.js"
+    "static/js/main.c5b7dac3.chunk.js"
   ]
 }
