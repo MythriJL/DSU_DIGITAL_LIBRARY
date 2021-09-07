@@ -30,8 +30,7 @@
 	
 	function App() {
 		return (
-			<Router basename={process.env.PUBLIC_URL}>
-			
+			<>
 		  
 			<Navbar  className = "navbarcss"  fixed="top"  expand="lg" variant="dark">
 
@@ -41,16 +40,10 @@
 
 					<Nav className="ml-auto">
 
-						<Link to="/">Home</Link>
-						<Link to="/about">About</Link>
-						<Link to="/learning">Learning Resource</Link>
-						<Link to="/downloads">Downloads</Link>
+						<Link to="/">Home &nbsp;&nbsp;</Link>
+						<Link to="/about">About &nbsp;&nbsp;</Link>
+						<Link to="/learning">Learning Resource &nbsp;</Link>
 					</Nav>
-					<Form inline>
-						<Link to = '/login'>
-							<Button variant="outline-warning">Login</Button>
-						</Link>
-					</Form>
 				</Navbar.Collapse>
 			</Navbar>
 		
@@ -103,7 +96,7 @@
 
 			
 			
-			</Router>
+			</>
 		);
 	}
 export default App;  
