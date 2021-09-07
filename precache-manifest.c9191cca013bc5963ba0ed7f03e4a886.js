@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6456690816c2f992883c0928e8e4258",
+    "revision": "bcc01224359db52fdd2888bf57d21866",
     "url": "/DSU_DIGITAL_LIBRARY/index.html"
   },
   {
-    "revision": "a65f455196e30608a873",
+    "revision": "33b9211ed5656121597f",
     "url": "/DSU_DIGITAL_LIBRARY/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "bc0b50a320efe41474ed",
+    "revision": "c81bb84577adf0f7f570",
     "url": "/DSU_DIGITAL_LIBRARY/static/css/main.0e6facac.chunk.css"
   },
   {
-    "revision": "a65f455196e30608a873",
-    "url": "/DSU_DIGITAL_LIBRARY/static/js/2.004ca263.chunk.js"
+    "revision": "33b9211ed5656121597f",
+    "url": "/DSU_DIGITAL_LIBRARY/static/js/2.0ae2bb72.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/DSU_DIGITAL_LIBRARY/static/js/2.004ca263.chunk.js.LICENSE.txt"
+    "url": "/DSU_DIGITAL_LIBRARY/static/js/2.0ae2bb72.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc0b50a320efe41474ed",
-    "url": "/DSU_DIGITAL_LIBRARY/static/js/main.b45762ab.chunk.js"
+    "revision": "c81bb84577adf0f7f570",
+    "url": "/DSU_DIGITAL_LIBRARY/static/js/main.c18b1f91.chunk.js"
   },
   {
     "revision": "56cf448d30dece4b4f50",
