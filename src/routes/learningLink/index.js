@@ -12,7 +12,7 @@ function LinkLearning() {
     // this useEffect will run once
     // similar to componentDidMount()
     useEffect(() => {
-        fetch("https://run.mocky.io/v3/03bcef59-e14f-4e4e-99f3-bd7976ee6e64")
+        fetch("https://run.mocky.io/v3/f831fffe-8e66-47c2-8616-bf535eae8149")
             .then(res => res.json())
             .then(
                 (result) => {
