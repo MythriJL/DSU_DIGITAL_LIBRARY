@@ -9,12 +9,12 @@
 	import nav_logo from './nav-logo.jpg';
 	
 	import {
-		BrowserRouter as Router,
+		BrowserRouter,
 		Switch,
 		Route,	
 		Link,
 	} from "react-router-dom";
-	
+	import { HashRouter as Router } from 'react-router-dom'
 	import {Navbar, Nav, Form, Button} from "react-bootstrap"
 	
 	import { Home } from './routes/home/Home';
@@ -30,7 +30,9 @@
 	
 	function App() {
 		return (
-		<Router>
+			<Router basename={process.env.PUBLIC_URL}>
+			
+		  
 			<Navbar  className = "navbarcss"  fixed="top"  expand="lg" variant="dark">
 
 				<Navbar.Brand href="/"><Image src={nav_logo} height = "50px" /></Navbar.Brand>
@@ -39,10 +41,10 @@
 
 					<Nav className="ml-auto">
 
-						<Nav.Link href="/">Home</Nav.Link>
-						<Nav.Link href="/about">About</Nav.Link>
-						<Nav.Link href="/learning">Learning Resource</Nav.Link>
-						<Nav.Link href="/downloads">Downloads</Nav.Link>
+						<Link to="/">Home</Link>
+						<Link to="/about">About</Link>
+						<Link to="/learning">Learning Resource</Link>
+						<Link to="/downloads">Downloads</Link>
 					</Nav>
 					<Form inline>
 						<Link to = '/login'>
@@ -101,7 +103,7 @@
 
 			
 			
-		</Router>
+			</Router>
 		);
 	}
 export default App;  
