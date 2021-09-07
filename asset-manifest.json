@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DSU_DIGITAL_LIBRARY/static/css/main.0e6facac.chunk.css",
-    "main.js": "/DSU_DIGITAL_LIBRARY/static/js/main.2732cd1f.chunk.js",
-    "main.js.map": "/DSU_DIGITAL_LIBRARY/static/js/main.2732cd1f.chunk.js.map",
+    "main.js": "/DSU_DIGITAL_LIBRARY/static/js/main.bc760023.chunk.js",
+    "main.js.map": "/DSU_DIGITAL_LIBRARY/static/js/main.bc760023.chunk.js.map",
     "runtime-main.js": "/DSU_DIGITAL_LIBRARY/static/js/runtime-main.7737f602.js",
     "runtime-main.js.map": "/DSU_DIGITAL_LIBRARY/static/js/runtime-main.7737f602.js.map",
     "static/css/2.829c9cb5.chunk.css": "/DSU_DIGITAL_LIBRARY/static/css/2.829c9cb5.chunk.css",
     "static/js/2.004ca263.chunk.js": "/DSU_DIGITAL_LIBRARY/static/js/2.004ca263.chunk.js",
     "static/js/2.004ca263.chunk.js.map": "/DSU_DIGITAL_LIBRARY/static/js/2.004ca263.chunk.js.map",
     "index.html": "/DSU_DIGITAL_LIBRARY/index.html",
-    "precache-manifest.459d3e00809fb03e95cce422e7e8f873.js": "/DSU_DIGITAL_LIBRARY/precache-manifest.459d3e00809fb03e95cce422e7e8f873.js",
+    "precache-manifest.8a1538530b4a05cea8e52197cd3c1224.js": "/DSU_DIGITAL_LIBRARY/precache-manifest.8a1538530b4a05cea8e52197cd3c1224.js",
     "service-worker.js": "/DSU_DIGITAL_LIBRARY/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/DSU_DIGITAL_LIBRARY/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.0e6facac.chunk.css.map": "/DSU_DIGITAL_LIBRARY/static/css/main.0e6facac.chunk.css.map",
@@ -42,6 +42,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.004ca263.chunk.js",
     "static/css/main.0e6facac.chunk.css",
-    "static/js/main.2732cd1f.chunk.js"
+    "static/js/main.bc760023.chunk.js"
   ]
 }
