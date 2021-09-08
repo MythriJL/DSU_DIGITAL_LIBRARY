@@ -55,7 +55,6 @@ function Ebook() {
                             }
                             )
                         }
-                       
                     </tbody>
                 </Table>,
             bTab:

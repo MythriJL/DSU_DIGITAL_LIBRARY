@@ -21,7 +21,7 @@
 	import { AboutUS } from './routes/aboutus';
 	import { Learning } from './routes/Learning';
 	import { School } from './routes/school';
-	import {CD} from './routes/learningCD';
+	import CD from './routes/learningCD';
 	import LinkLearning  from './routes/learningLink';
 	import Ebook from './routes/ebook';
 	import Ejournal from './routes/ejournal';

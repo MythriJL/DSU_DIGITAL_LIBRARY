@@ -31,7 +31,6 @@ function LinkLearning() {
                 items && items.map((x, idx) =>
                     <Row className="collaps" key={idx}>
                         <Col>
-
                             <Collapsible trigger={x.trigger}>
                                 <Table striped bordered hover variant="light" responsive>
                                     <thead>
@@ -58,11 +57,6 @@ function LinkLearning() {
                 )
 
             }
-
-
-
-
-
         </>
     )
 }
