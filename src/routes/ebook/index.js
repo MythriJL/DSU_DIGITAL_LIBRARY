@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import './index.css';
 import Switch from 'react-bootstrap/esm/Switch';
-import { Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import { Table } from 'react-bootstrap';
 import { Tab } from '../ejournal/tab/ Tab';
 const styles = {
